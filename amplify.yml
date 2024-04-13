@@ -13,7 +13,8 @@ applications:
             - npm install -g pnpm
         build:
           commands:
-            - npx turbo run build
+            - pnpm install
+            - pnpm run build
       artifacts:
         files:
           - '**/*'
