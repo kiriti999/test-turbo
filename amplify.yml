@@ -19,4 +19,4 @@ applications:
         files:
           - '**/*'
         discard-paths: yes
-        baseDirectory: dist
+        baseDirectory: .next
