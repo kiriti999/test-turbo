@@ -19,6 +19,3 @@ applications:
           - '**/*'
         discard-paths: yes
         baseDirectory: dist
-      cache:
-        paths:
-          - node_modules/**/*
